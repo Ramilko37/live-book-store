@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    background-color: #D4D596;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navList li {
+    margin-right: 10px;
+}
+
+.navList li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+}
+
+.liveBookBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.languageSelector {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

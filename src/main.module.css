@@ -1,0 +1,11 @@
+.container {
+    background-image: url("path/to/your/background/image.jpg"); /* Set your background image URL here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.container > div {
+    width: 80%;
+    margin: 0 auto;
+}
