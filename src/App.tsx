@@ -1,11 +1,15 @@
-import {Footer} from './components/Footer';
-import {Header} from './components/Header';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import {Layout} from './components/Layout';
+import {Profile} from './pages/Profile';
 
 export const App = () => {
   return (
-    <div>
-      <Layout>123</Layout>
-    </div>
+    <Layout>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Profile />} />
+        </Routes>
+      </BrowserRouter>
+    </Layout>
   );
 };
