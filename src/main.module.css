@@ -1,8 +1,10 @@
 .container {
-    background-image: url("path/to/your/background/image.jpg"); /* Set your background image URL here */
+    display: flex;
+    background-image: url('assets/Back_Img.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    padding: 0 20% 0;
+    justify-content: center;
 }
 
 .container > div {

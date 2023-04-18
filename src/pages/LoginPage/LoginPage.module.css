@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    width: 235px;
+    margin: 0 auto;
+}
+
+.loginBtn {
+    width: 165px;
+    background: #DE981E;
+    border-radius: 1px;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.registerBtn {
+    width: 159px;
+    background: #D4D596;
+    border-radius: 1px;
+    margin: 0 auto;
+    border: none;
+    color: white;
+}
